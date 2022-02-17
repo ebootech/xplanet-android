@@ -1,0 +1,3 @@
+
+rootProject.name = "Xplanet"
+include ':app'
