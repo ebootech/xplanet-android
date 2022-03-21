@@ -7,4 +7,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="tab_text_color_nor">#9FA3A9</color>
+    <color name="tab_text_color_pre">#20222B</color>
+    <color name="meeting_btn_bg_color">#00BF84</color>
 </resources>

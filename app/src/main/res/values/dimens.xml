@@ -1,3 +1,123 @@
 <resources>
-        <dimen name="fab_margin">16dp</dimen>
-    </resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="fragment_horizontal_margin">16dp</dimen>
+    <dimen name="fragment_vertical_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="btn_edit_text_padding">8dp</dimen>
+    <dimen name="btn_edit_text_width">16dp</dimen>
+    <!-- 默认按钮的圆角大小 -->
+    <dimen name="button_round_size">1dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="meetingItemTitleSize">16sp</dimen>
+    <dimen name="design_bottom_navigation_active_text_size">12sp</dimen>
+    <dimen name="design_bottom_navigation_text_size">12sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="content_padding">8dp</dimen>
+
+    <dimen name="dimen_view">0.1dp</dimen>
+    <dimen name="dimen1_0">1dp</dimen>
+    <dimen name="dimen2_0">2dp</dimen>
+    <dimen name="dimen3_0">3dp</dimen>
+    <dimen name="dimen4_0">4dp</dimen>
+    <dimen name="dimen5_0">5dp</dimen>
+    <dimen name="dimen6_0">6dp</dimen>
+    <dimen name="dimen7_0">7dp</dimen>
+    <dimen name="dimen8_0">8dp</dimen>
+    <dimen name="dimen9_0">9dp</dimen>
+    <dimen name="dimen10_0">10dp</dimen>
+    <dimen name="dimen11_0">11dp</dimen>
+    <dimen name="dimen12_0">12dp</dimen>
+    <dimen name="dimen13_0">13dp</dimen>
+    <dimen name="dimen14_0">14dp</dimen>
+    <dimen name="dimen15_0">15dp</dimen>
+    <dimen name="dimen16_0">16dp</dimen>
+    <dimen name="dimen17_0">17dp</dimen>
+    <dimen name="dimen18_0">18dp</dimen>
+    <dimen name="dimen19_0">19dp</dimen>
+    <dimen name="dimen20_0">20dp</dimen>
+    <dimen name="dimen21_0">21dp</dimen>
+    <dimen name="dimen22_0">22dp</dimen>
+    <dimen name="dimen24_0">24dp</dimen>
+    <dimen name="dimen25_0">25dp</dimen>
+    <dimen name="dimen26_0">26dp</dimen>
+    <dimen name="dimen27_0">27dp</dimen>
+    <dimen name="dimen28_0">28dp</dimen>
+    <dimen name="dimen29_0">29dp</dimen>
+    <dimen name="dimen30_0">30dp</dimen>
+    <dimen name="dimen31_0">31dp</dimen>
+    <dimen name="dimen32_0">32dp</dimen>
+    <dimen name="dimen34_0">34dp</dimen>
+    <dimen name="dimen35_0">35dp</dimen>
+    <dimen name="dimen36_0">36dp</dimen>
+    <dimen name="dimen38_0">38dp</dimen>
+    <dimen name="dimen40_0">40dp</dimen>
+    <dimen name="dimen43_0">43dp</dimen>
+    <dimen name="dimen47_0">47dp</dimen>
+    <dimen name="dimen48_0">48dp</dimen>
+    <dimen name="dimen44_0">44dp</dimen>
+    <dimen name="dimen45_0">45dp</dimen>
+    <dimen name="dimen50_0">50dp</dimen>
+    <dimen name="dimen52_0">52dp</dimen>
+    <dimen name="dimen54_0">54dp</dimen>
+    <dimen name="dimen56_0">56dp</dimen>
+    <dimen name="dimen58_0">58dp</dimen>
+    <dimen name="dimen60_0">60dp</dimen>
+    <dimen name="dimen64_0">64dp</dimen>
+    <dimen name="dimen66_0">66dp</dimen>
+    <dimen name="dimen70_0">70dp</dimen>
+    <dimen name="dimen72_0">72dp</dimen>
+    <dimen name="dimen76_0">76dp</dimen>
+    <dimen name="dimen78_0">78dp</dimen>
+    <dimen name="dimen80_0">80dp</dimen>
+    <dimen name="dimen85_0">85dp</dimen>
+    <dimen name="dimen87_0">87dp</dimen>
+    <dimen name="dimen88_0">88dp</dimen>
+    <dimen name="dimen90_0">90dp</dimen>
+    <dimen name="dimen108_0">108dp</dimen>
+    <dimen name="dimen100_0">100dp</dimen>
+    <dimen name="dimen112_0">112dp</dimen>
+    <dimen name="dimen120_0">120dp</dimen>
+    <dimen name="dimen125_0">125dp</dimen>
+    <dimen name="dimen128_0">128dp</dimen>
+    <dimen name="dimen134_0">134dp</dimen>
+    <dimen name="dimen139_0">139dp</dimen>
+    <dimen name="dimen152_0">152dp</dimen>
+    <dimen name="dimen160_0">160dp</dimen>
+    <dimen name="dimen167_0">167dp</dimen>
+    <dimen name="dimen188_0">188dp</dimen>
+    <dimen name="dimen145_0">145dp</dimen>
+    <dimen name="dimen200_0">200dp</dimen>
+    <dimen name="dimen270_0">270dp</dimen>
+    <dimen name="dimen280_0">280dp</dimen>
+    <dimen name="dimen281_0">281dp</dimen>
+    <dimen name="dimen213_0">213dp</dimen>
+    <dimen name="dimen224_0">224dp</dimen>
+    <dimen name="dimen225_0">225dp</dimen>
+    <dimen name="dimen240_0">240dp</dimen>
+    <dimen name="dimen250_0">250dp</dimen>
+    <dimen name="dimen290_0">290dp</dimen>
+    <dimen name="dimen300_0">300dp</dimen>
+    <dimen name="dimen330_0">330dp</dimen>
+    <dimen name="dimen350_0">350dp</dimen>
+    <dimen name="dimen384_0">384dp</dimen>
+    <!--文字用dp-->
+    <dimen name="text8_0">8sp</dimen>
+    <dimen name="text10_0">10sp</dimen>
+    <dimen name="text12_0">12sp</dimen>
+    <dimen name="text14_0">14sp</dimen>
+    <dimen name="text15_0">15sp</dimen>
+    <dimen name="text16_0">16sp</dimen>
+    <dimen name="text17_0">17sp</dimen>
+    <dimen name="text18_0">18sp</dimen>
+    <dimen name="text20_0">20sp</dimen>
+    <dimen name="text21_0">21sp</dimen>
+    <dimen name="text24_0">24sp</dimen>
+    <dimen name="text35_0">35sp</dimen>
+    <dimen name="text36_0">36sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="round">1dp</dimen>
+
+
+</resources>

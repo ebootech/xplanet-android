@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_message"
+        android:icon="@drawable/tab_icon_me_bg"
+        android:title="@string/message_txt" />
+
+   <!-- <item
+        android:id="@+id/navigation_address_book"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_address_book" />-->
+    <item
+        android:id="@+id/navigation_me"
+        android:icon="@drawable/tab_icon_me_bg"
+        android:title="@string/me_txt" />
+
+</menu>

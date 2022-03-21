@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="model"
+            type="tech.eboot.xplanet.model.bean.msg.MessageModel" />
+        <import type="android.view.View"/>
+        <import type="android.text.TextUtils" alias="textUtils" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="1dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen12_0">
+
+            <ImageView
+                android:id="@+id/avatar"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:src="@color/meeting_btn_bg_color"
+                app:imageUrl="@{model.avatarImg}"
+                android:layout_width="36dp"
+                android:layout_height="36dp" />
+            <TextView
+                android:id="@+id/his_meeting_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="名称"
+                android:textColor="#ff333333"
+                android:textSize="14sp"
+                android:maxEms="15"
+                android:singleLine="true"
+                android:ellipsize="end"
+                app:layout_constraintLeft_toRightOf="@+id/avatar"
+                app:layout_constraintTop_toTopOf="@+id/avatar" />
+
+            <TextView
+                android:id="@+id/during_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="消息内容"
+                android:textColor="#ff999999"
+                android:textSize="12sp"
+                app:layout_constraintLeft_toRightOf="@+id/avatar"
+                app:layout_constraintBottom_toBottomOf="@+id/avatar"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</layout>

@@ -1,0 +1,89 @@
+
+<resources>
+    <!--  自定义EditText的属性-->
+    <declare-styleable name="PowerfulEditText">
+        <!--图片资源-->
+        <attr name="clearDrawable" format="reference" />
+        <attr name="visibleDrawable" format="reference" />
+        <attr name="invisibleDrawable" format="reference" />
+        <!--按钮宽度大小-->
+        <attr name="BtnWidth" format="dimension" />
+        <!--按钮间距大小-->
+        <attr name="BtnSpacing" format="dimension" />
+        <!--边框颜色和样式-->
+        <attr name="styleColor" format="color" />
+        <attr name="borderStyle" format="string" />
+        <attr name="toastNullHint" format="string" />
+        <attr name="specialToastHint" format="string" />
+        <attr name="automaticSpace" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="SmoothCheckBox">
+        <attr name="duration" format="integer"/>
+        <attr name="stroke_width" format="dimension"/>
+        <attr name="color_tick" format="color"/>
+        <attr name="color_checked" format="color"/>
+        <attr name="color_unchecked" format="color"/>
+        <attr name="color_unchecked_stroke" format="color"/>
+    </declare-styleable>
+
+    <!-- require BindingCommand {@link com.kelin.mvvmlight.command.BindingCommand } to deal with view click event. -->
+    <attr name="onClickCommand" format="reference" />
+    <attr name="onLongClickCommand" format="reference" />
+    <attr name="onClick" format="string" />
+    <!-- require BindingCommand<Boolean> {@link com.kelin.mvvmlight.command.BindingCommand } to deal with view focus change event.
+     BindingCommand would has params which means if view hasFocus.-->
+    <attr name="onFocusChangeCommand" format="reference" />
+    <attr name="isThrottleFirst" format="boolean" />
+    <attr name="currentView" format="reference" />
+    <attr name="isVisible" format="boolean" />
+    <attr name="onTouchCommand" format="reference" />
+    <declare-styleable name="View">
+        <!-- require BindingCommand {@link com.kelin.mvvmlight.command.BindingCommand } to deal with view click event. -->
+        <attr name="onClickCommand" />
+        <attr name="onLongClickCommand" />
+        <!-- require BindingCommand<Boolean> {@link com.kelin.mvvmlight.command.BindingCommand } to deal with view focus change event.
+         BindingCommand would has params which means if view hasFocus.-->
+        <attr name="onFocusChangeCommand" />
+        <!-- require BindingCommand<MotionEvent> -->
+        <attr name="onTouchCommand" />
+        <attr name="isThrottleFirst" />
+        <attr name="currentView" />
+
+    </declare-styleable>
+
+    <declare-styleable name="SwipeMenuLayout">
+        <attr name="leftViewId" format="reference|integer"/>
+        <attr name="rightViewId" format="reference|integer"/>
+        <attr name="contentViewId" format="reference|integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="XTabLayout">
+        <attr format="dimension" name="xTabIndicatorHeight"/>
+        <attr format="dimension" name="xTabIndicatorWidth"/>
+        <attr format="dimension" name="xTabIndicatorRoundX"/>
+        <attr format="dimension" name="xTabIndicatorRoundY"/>
+        <attr format="color" name="xTabIndicatorColor"/>
+        <attr format="dimension" name="xTabPadding"/>
+        <attr format="dimension" name="xTabPaddingStart"/>
+        <attr format="dimension" name="xTabPaddingTop"/>
+        <attr format="dimension" name="xTabPaddingEnd"/>
+        <attr format="dimension" name="xTabPaddingBottom"/>
+        <attr format="reference" name="xTabTextAppearance"/>
+        <attr format="color" name="xTabTextColor"/>
+        <attr format="color" name="xTabSelectedTextColor"/>
+        <attr format="dimension" name="xTabMinWidth"/>
+        <attr format="dimension" name="xTabMaxWidth"/>
+        <attr format="reference|color" name="xTabBackgroundColor"/>
+        <attr format="reference|color" name="xTabSelectedBackgroundColor"/>
+        <attr format="dimension" name="xTabContentStart"/><attr name="xTabMode">
+        <enum name="scrollable" value="0x00000000"/>
+        <enum name="fixed" value="0x00000001"/>
+        </attr>
+        <attr format="integer" name="xTabGravity"/><attr format="dimension" name="xTabTextSize"/><attr format="boolean" name="xTabTextBold"/><attr format="dimension" name="xTabSelectedTextSize"/><attr format="boolean" name="xTabTextSelectedBold"/><attr format="integer" name="xTabDisplayNum"/><attr format="boolean" name="xTabTextAllCaps"/><attr format="dimension" name="xTabDividerHeight"/><attr format="dimension" name="xTabDividerWidth"/><attr format="boolean" name="xTabDividerWidthWidthText"/><attr format="color" name="xTabDividerColor"/><attr name="xTabDividerGravity">
+        <enum name="top" value="0x00000000"/>
+        <enum name="center" value="0x00000001"/>
+        <enum name="bottom" value="0x00000002"/>
+    </attr></declare-styleable>
+
+</resources>
