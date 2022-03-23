@@ -14,12 +14,10 @@
             app:adapter="@{adapter}"
             android:id="@+id/recycler_view"
             app:layout_constraintTop_toTopOf="parent"
-            android:name="com.plyl.plmeeting.ui.meeting.MeetingHistoryFragment"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             app:layoutManager="LinearLayoutManager"
-            tools:context=".ui.meeting.MeetingHistoryFragment"
-            tools:listitem="@layout/fragment_message_item"
+            tools:listitem="@layout/fragment_chat_item"
            />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
