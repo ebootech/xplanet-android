@@ -8,6 +8,7 @@ import com.chad.library.adapter.base.viewholder.BaseDataBindingHolder;
 
 import java.util.List;
 
+import tech.eboot.xplanet.R;
 import tech.eboot.xplanet.model.bean.msg.ChatInfoModel;
 
 /**
@@ -19,6 +20,7 @@ public class ChatItemAdapter extends BaseMultiItemQuickAdapter<ChatInfoModel, Ba
 
     public ChatItemAdapter(@Nullable List<ChatInfoModel> data) {
         super(data);
+        addItemType(ChatInfoModel.DATE, R.layout.fragment_chat_item);
     }
 
     @Override

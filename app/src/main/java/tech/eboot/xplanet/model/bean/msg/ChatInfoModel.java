@@ -8,6 +8,8 @@ import com.chad.library.adapter.base.entity.MultiItemEntity;
  * @time 11:28.
  */
 public class ChatInfoModel implements MultiItemEntity {
+    public static final int DATE = 0;
+
     public int type = 0;//xiaoxileixing
 
     public int getType() {

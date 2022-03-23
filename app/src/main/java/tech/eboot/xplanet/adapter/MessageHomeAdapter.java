@@ -5,6 +5,9 @@ import androidx.annotation.Nullable;
 import com.chad.library.adapter.base.BaseMultiItemQuickAdapter;
 import com.chad.library.adapter.base.viewholder.BaseDataBindingHolder;
 import java.util.List;
+
+import tech.eboot.xplanet.R;
+import tech.eboot.xplanet.model.bean.msg.ChatInfoModel;
 import tech.eboot.xplanet.model.bean.msg.MessageModel;
 
 /**
@@ -16,6 +19,7 @@ public class MessageHomeAdapter extends BaseMultiItemQuickAdapter<MessageModel, 
 
     public MessageHomeAdapter(@Nullable List<MessageModel> data) {
         super(data);
+        addItemType(ChatInfoModel.DATE, R.layout.fragment_message_item);
     }
 
     @Override
